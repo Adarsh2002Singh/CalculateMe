@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    width: 55px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    border-color:rgb(255, 170, 0);
+    cursor: pointer;
+}
+
+.row {
+    margin: 8px;
+}
+
+.row input {
+    margin: 0;
+    padding: 6px 38px;
+    border: 2px solid rgb(255, 170, 0);;
+    border-radius: 5px;
+}
+
+.calculator-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:aquamarine;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(21, 103, 32, 0.1);
+}
+
+.calculator-background {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.ll4hCb8HgmMRtAyua5s7BAHaCs&pid=Api&P=0&h=180');
+    /* Replace with the actual background image */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: -1;
+    border-radius: 8px;
+}
